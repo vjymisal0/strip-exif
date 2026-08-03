@@ -1,0 +1,37 @@
+{
+  "name": "strip-exif",
+  "version": "1.0.0",
+  "description": "Strip EXIF/GPS/IPTC metadata from images before upload or storage, with an optional read-only inspector",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "exif",
+    "gps",
+    "metadata",
+    "privacy",
+    "image-processing",
+    "sharp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "sharp": "^0.35.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
