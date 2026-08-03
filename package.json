@@ -1,5 +1,5 @@
 {
-  "name": "strip-exif",
+  "name": "@vijayishere/strip-exif",
   "version": "1.0.0",
   "description": "Strip EXIF/GPS/IPTC metadata from images before upload or storage, with an optional read-only inspector",
   "repository": {

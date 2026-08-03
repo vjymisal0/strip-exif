@@ -7,7 +7,7 @@ Photos taken on phones and cameras routinely embed the exact GPS coordinates whe
 ## Install
 
 ```bash
-npm install strip-exif
+npm install @vijayishere/strip-exif
 ```
 
 Requires Node.js >= 18. Uses [`sharp`](https://sharp.pixelplumbing.com/) for image processing and [`exifr`](https://github.com/MikeKovarik/exifr) for reading metadata.
@@ -15,7 +15,7 @@ Requires Node.js >= 18. Uses [`sharp`](https://sharp.pixelplumbing.com/) for ima
 ## Usage
 
 ```js
-import { stripExif, readExif, hasGpsData } from 'strip-exif';
+import { stripExif, readExif, hasGpsData } from '@vijayishere/strip-exif';
 
 // Remove all EXIF/GPS/IPTC/XMP metadata, get back a clean Buffer.
 // Visual orientation is preserved (rotation is baked into the pixels).
