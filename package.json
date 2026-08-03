@@ -2,6 +2,14 @@
   "name": "strip-exif",
   "version": "1.0.0",
   "description": "Strip EXIF/GPS/IPTC metadata from images before upload or storage, with an optional read-only inspector",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjymisal0/strip-exif.git"
+  },
+  "homepage": "https://github.com/vjymisal0/strip-exif#readme",
+  "bugs": {
+    "url": "https://github.com/vjymisal0/strip-exif/issues"
+  },
   "type": "module",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
