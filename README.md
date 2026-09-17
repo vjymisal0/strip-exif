@@ -67,3 +67,7 @@ Returns `Promise<boolean>` - `true` if the image currently embeds GPS coordinate
 ## License
 
 MIT
+
+## Security and privacy
+
+Use this package before storing or sharing images when metadata privacy matters. Verify the output and remember that pixels can still contain identifying information.
