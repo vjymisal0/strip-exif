@@ -1,6 +1,6 @@
 {
   "name": "exif-purge",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Strip EXIF/GPS/IPTC metadata from images before upload or storage, with an optional read-only inspector",
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
   "license": "MIT",
   "dependencies": {
     "exifr": "^7.1.3",
-    "sharp": "^0.35.3"
+    "sharp": "0.35.4"
   },
   "engines": {
     "node": ">=18"
