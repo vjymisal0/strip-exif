@@ -1,6 +1,6 @@
 {
   "name": "exif-purge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strip EXIF/GPS/IPTC metadata from images before upload or storage, with an optional read-only inspector",
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
     }
   },
   "files": [
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "test": "node --test test/*.test.js"
@@ -33,7 +34,7 @@
     "image-processing",
     "sharp"
   ],
-  "author": "",
+  "author": "Vijay Misal <misalvijay153@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "exifr": "^7.1.3",
