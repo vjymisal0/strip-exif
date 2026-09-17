@@ -1,5 +1,10 @@
 # strip-exif
 
+## Module format
+
+This package is ESM-only. Use `import` syntax in Node.js projects with `type: module`. CommonJS applications can load it with `await import("exif-purge")`.
+
+
 Strip EXIF, GPS, and other metadata from images before upload or storage - and optionally inspect what's embedded first.
 
 Photos taken on phones and cameras routinely embed the exact GPS coordinates where they were shot, plus device make/model and timestamps. Apps that let users upload photos and don't strip this data can leak a user's precise location.
