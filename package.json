@@ -1,6 +1,6 @@
 {
   "name": "exif-purge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Strip EXIF/GPS/IPTC metadata from images before upload or storage, with an optional read-only inspector",
   "repository": {
     "type": "git",
@@ -15,8 +15,14 @@
   "types": "./src/index.d.ts",
   "exports": {
     ".": {
-      "types": "./src/index.d.ts",
-      "import": "./src/index.js"
+      "import": {
+        "types": "./src/index.d.ts",
+        "default": "./src/index.js"
+      },
+      "require": {
+        "types": "./src/index.d.cts",
+        "default": "./src/index.cjs"
+      }
     }
   },
   "files": [
